@@ -27,9 +27,16 @@ body {
     
 }
 
+#botao1 {
+    float: right;
+    margin-top: -10px;
+    margin-right: 30px;
+    
+}
+
 #botao {
     float: right;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-right: 5px;
     
 }
@@ -51,6 +58,7 @@ h2{
 
 h3 {
     margin-left: 30px;
+    margin-right: 30px;
     margin-top: 50px;
     font-size: 25px;
 
@@ -71,12 +79,12 @@ a {
     text-decoration: none;
     background-color: rgb(160, 135, 83);
     color: #f0b342;
-    border: 1px solid rgb(160, 135, 83);
+    border: 2px solid rgb(160, 135, 83);
     border-radius: 12px;
     padding: 10px 10px;    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 a:hover{
@@ -88,5 +96,4 @@ a:hover{
 @font-face {
     font-family: elegant;
     src: url(elegant.otf);
-
-  
+}
